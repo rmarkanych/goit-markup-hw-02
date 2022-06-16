@@ -1,13 +1,39 @@
-:root{
-  --main-description-color:#757575 ;
-  --main-white-color:#FFFFFF;
+:root {
+  --primary-description-color:#757575 ;
+  --primary-white-color:#FFFFFF;
   --title-color:#212121;
   --logo-color:#000000;
-  --main-blue-color:#2196F3;
-  --main-button-color:#F5F4FA;
+  --primary-blue-color:#2196F3;
+  --primary-button-color:#F5F4FA;
   --footer-bg-color:#2F303A;
-  --main-bg-color:#E5E5E5;
-  --main-font-size: 14px;
-  --main-font-weight: 400;
-  --main-font-family: Roboto, sans-serif;
-};
+  --primary-bg-color:#E5E5E5;
+  --primary-font-size: 14px;
+  --primary-font-weight: 400;
+  --primary-font-family: Roboto, sans-serif;
+}
+body{
+  background-color:var(--primary-white-color);
+  font-size: var(--primary-font-size);
+  font-weight: var(--primary-font-weight);
+  font-family: var(--primary-font-family);
+}
+ul{
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+}
+.logo{
+  font-family: Ralevay, serif;
+  font-weight: 700;
+  font-style: 26px;
+  line-height: 1.15;
+  letter-spacing: 3%;
+  color: var(--primary-blue-color);
+}
+.primary-logo{
+  color: var(--logo-color)
+}
+.secondary-logo{
+  color:var(--primary-white-color)
+}
