@@ -1,0 +1,20 @@
+:root{
+  --main-description-color:#757575 ;
+  --main-white-color:#FFFFFF;
+  --title-color:#212121;
+  --logo-color:#000000;
+  --main-blue-color:#2196F3;
+  --main-button-color:#F5F4FA;
+  --footer-bg-color:#2F303A;
+  --main-bg-color:#E5E5E5;
+  --main-font-size: 14px;
+  --main-font-weight: 400;
+  --main-font-family: Roboto, sans-serif;
+};
+body{
+  
+  background-color: var(--main-bg-color);
+  font-size: var(--main-font-size);
+  font-weight: var(--main-font-weight);
+  font-family: var(--main-font-family);
+};
