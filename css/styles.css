@@ -37,6 +37,9 @@ ul{
 .secondary-logo{
   color:var(--primary-white-color)
 }
+.navigation-list .navigation-item .current{
+  color: #2196F3;
+}
 .navigation-item .navigation-link{
     font-weight: 500;
     line-height: 1.14;
@@ -48,6 +51,7 @@ ul{
 .navigation-link:focus{
   color: var(--primary-blue-color);
 }
+
 .header-contacts-item .header-contacts-link{
   font-weight: 500;
   line-height: 1.14;
@@ -72,6 +76,7 @@ color: var(--primary-blue-color);
 }
 .hero-button{
   font-weight: 700;
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
@@ -89,6 +94,7 @@ color: var(--primary-blue-color);
     color: var(--title-color);
 }
 .features-title{
+  font-size: 14px;
   font-weight: 700;
   color:var(--title-color);
   line-height: 1.14;
@@ -113,7 +119,7 @@ color: var(--primary-blue-color);
 }
 .team-position{
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-description-color);
@@ -141,9 +147,10 @@ color: var(--primary-blue-color);
 .footer-contacts-link:hover{
   color: var(--primary-blue-color);
 }
-.navigation-button-item .portfolio-button{
+.portfolio-button-item .portfolio-button{
   background-color: var(--primary-button-color);
   color: var(--title-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
